@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 2px 2px 1px black;
+	color: white;
+}
+#Background {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
+a {
+	text-decoration: none;
+	color: black
+}
+header {
+	position: fixed;
+	width: 100%;
+}
+header #nav #Logo {
+	padding: 10px;
+	float: left;
+}
+header #nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+header #nav li {
+	float: right;
+}
+header #nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 1em 1em;
+	text-decoration: none;
+}
+header #nav li a:hover {
+	background-color: #111;
+}
+#mute {
+	padding-top: 3px;
+}
+article {
+	height: 50%;
+	width: 100%;
+	padding-top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: auto;
+	flex-direction: column;
+}
+article p1 {
+	border-radius: 1em;
+	background: #1D1D1D;
+	padding: 1em;
+	width: auto;
+	height: auto;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+article h1 {
+	text-align: center;
+}
+#Albums {
+	display: inline-block;
+}
+#Humanz :hover {
+	height: 290px;
+	width: auto;
+}
+#Gorillaz :hover {
+	height: 290px;
+	width: auto;
+}
+#DemonDays :hover {
+	height: 290px;
+	width: auto;
+}
+#PlasticBeach :hover {
+	height: 290px;
+	width: auto;
+}
+#canvas {
+	margin: 20px;
+}
+#draw {
+	margin: 0 auto;
+}
